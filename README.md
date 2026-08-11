@@ -147,8 +147,8 @@ for more desperate cases, remove all files from XSRCDIR not in CVS:
 libxcb uses C source files that are generated from the XML protocol
 specification using xcbgen, written in Python. On OpenBSD those files
 cannot be generated during a normal 'make build' since Python is not
-in the base system. So the generated version are checked in CVS
-(in lib/libxcb/src/). Here is the receipt to update them when updating
+in the base system. So the generated version are checked into CVS
+(in lib/libxcb/src/). Here is the recipe to update them when updating
 to a new release of XCB:
 
 1. Update proto/xcb-proto.
@@ -189,4 +189,4 @@ dump will be in the current directory where startx was executed.
 See also http://xorg.freedesktop.org/wiki/Development/Documentation/ServerDebugging
 
 --
-$OpenBSD: README.md,v 1.3 2025/08/30 11:56:24 matthieu Exp $
+$OpenBSD: README.md,v 1.4 2026/08/11 11:48:32 sthen Exp $
